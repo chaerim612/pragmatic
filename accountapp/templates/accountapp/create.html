@@ -2,7 +2,7 @@
 
 {% block content %}
 
-    <div>
+    <div style="text-align: center">
         <form action="{% url 'accountapp:create' %}" method="post">
             {% csrf_token %}
             {{ form }}
